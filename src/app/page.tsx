@@ -52,7 +52,7 @@ export default function Home() {
           <div className=" col-span-6 md:col-span-3 lg:col-span-4 lg:px-16 flex flex-col justify-between">
             <div className="">
             <div className="flex flex-col items-center text-3xl pt-14">
-        <p className="text-3xl  font-bold">Junior Software Developer</p>
+        <p className="text-3xl  font-bold">Software Developer</p>
         <p className="text-2xl"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea hic illum autem, non aspernatur quia eum enim debitis sunt, dolore eius esse ipsam ut cumque dignissimos repellat. Aliquid, tenetur eligendi.</p>
       </div>
       <br />
