@@ -89,8 +89,7 @@ export default function Home() {
 
 <div className="text-2xl mx-8 py-2">
 <p className="pb-3 color font-bold">Languages:</p>
-  <div>
-    <ul className="grid grid-cols-2">
+    <ul className="grid grid-cols-2 gap-3">
       <li>
         <i >
         {/* c# */}
@@ -131,12 +130,10 @@ export default function Home() {
       </li>
 
     </ul>
-  </div>
 </div>
 
 <div className="text-2xl mx-8 py-2">
 <p className="pb-3 color font-bold">Frameworks:</p>
-  <div>
   <ul className="grid grid-cols-2 gap-3">
   <li>
       <i className="">
@@ -157,7 +154,6 @@ export default function Home() {
       </i>
     </li>
     </ul>
-  </div>
 </div>
 
 <div className="text-2xl mx-8 py-2">
@@ -211,7 +207,6 @@ export default function Home() {
 </div>
 
 
-        <hr />
         <div className="flex flex-col items-center text-4xl font-bold pt-14 color ">
           <p id="pro">Projects</p>
         </div>
