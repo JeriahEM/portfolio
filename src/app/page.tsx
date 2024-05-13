@@ -78,7 +78,7 @@ export default function Home() {
     <li>
       <i className="">
         {/* react */}
-        <img className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+        <img title="React"className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
       </i>
     </li>
 
@@ -93,39 +93,40 @@ export default function Home() {
       <li>
         <i >
         {/* c# */}
-          <img className="lg:w-20 lg:h-20 bg-blend-color color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg" />
+          <img title="C#"className="lg:w-20 lg:h-20 bg-blend-color color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg" />
         </i>
       </li>
       <li>
         <i className="">
 
         {/* html */}
-          <img className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" />
+          <img title="HTML5" className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" />
 
         </i>
       </li>
       <li>
         <i className="">
         {/* js */}
-          <img className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+          <img title="Java Script" className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
         </i>
       </li>
       <li>
         <i className="">
         {/* css */}
-          <img className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" />
+          <img title="CSS" className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" />
         </i>
       </li>
       <li>
         <i className="">
         {/* typescript */}
-          <img className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
+          <img title="Typescript" className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
         </i>
       </li>
       <li>
         <i className="">
         {/* sql */}
-        <img className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+        
+        <img title="SQL" className="lg:w-20 lg:h-20 color  " src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
         </i>
       </li>
 
@@ -138,19 +139,19 @@ export default function Home() {
   <li>
       <i className="">
         {/* nextjs */}
-        <img  className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg" />
+        <img title="Next.js" className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg" />
       </i>
     </li>
     <li>
       <i className="">
         {/* tailwind */}
-        <img className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+        <img title="Tailwind" className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
       </i>
     </li>
     <li>
       <i className="">
         {/* bootstrap */}
-        <img className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain.svg" />
+        <img title="Bootstrap" className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain.svg" />
       </i>
     </li>
     </ul>
@@ -163,7 +164,7 @@ export default function Home() {
       <i className="">
 
         {/* postman */}
-      <img className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
+      <img title="Postman" className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
           
       </i>
     </li>
@@ -171,33 +172,33 @@ export default function Home() {
     <li>
       <i className="">
         {/* vscode */}
-      <img className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+      <img title="Visual Studios Code" className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
       </i>
     </li>
     <li>
       <i className="">
         {/* figma */}
-      <img className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+      <img title="Figma" className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
       </i>
     </li>
     <li>
       <i className="">
         {/* azure */}
-      <img className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
+      <img title="Azure" className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
       </i>
     </li>
 
     <li>
       <i className="">
         {/* slack */}
-      <img className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" />  
+      <img title="Slack" className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" />  
       </i>
     </li>
 
     <li>
       <i className="">
         {/* github */}
-      <img className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+      <img title="Github" className="lg:w-20 lg:h-20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
       </i>
     </li>
     
@@ -220,12 +221,12 @@ export default function Home() {
             <p className="pt-2 text-xl color">Made With:</p>
             <div className="grid grid-cols-6 justify-items-start mx-6 pb-8">
               
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
-            <img className="lg:w-10 lg:h-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg" />
+            <img title="Typescript" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
+            <img title="Tailwind" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+            <img title="React" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+            <img title="SQL" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+            <img title="Azure" className="lg:w-10 lg:h-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
+            <img title="Next.js" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg" />
             </div>
           </div>
 
@@ -238,11 +239,11 @@ export default function Home() {
             <p className="pt-2 text-xl color">Made With:</p>
             <div className="grid grid-cols-6 justify-items-start mx-6 pb-8">
               
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" />          
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" />
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain.svg" />
-            <img className="lg:w-10 lg:h-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+            <img title="HTML5" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" />          
+            <img title="CSS" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" />
+            <img title="Java Script" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+            <img title="Bootstrap" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain.svg" />
+            <img title="Figma" className="lg:w-10 lg:h-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
 
             </div>
           </div>
@@ -256,9 +257,9 @@ export default function Home() {
             <p className="pt-2 text-xl color">Made With:</p>
             <div className="grid grid-cols-6 justify-items-start mx-6 pb-8">
               
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-            <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+            <img title="Typescript" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
+            <img title="Tailwind" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+            <img title="React" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 
             </div>
           </div>
