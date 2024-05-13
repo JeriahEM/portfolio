@@ -11,6 +11,8 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import ArticleIcon from '@mui/icons-material/Article';
 
 export default function Home() {
   return (
@@ -28,15 +30,9 @@ export default function Home() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Link href="#" active>
-            Home
-          </Navbar.Link>
-          <Navbar.Link as={Link} href="#">
-            About
-          </Navbar.Link>
-          <Navbar.Link href="">Projects</Navbar.Link>
-          <Navbar.Link href="#">Lorem</Navbar.Link>
-          <Navbar.Link href="#">Resume</Navbar.Link>
+          <Navbar.Link href="https://www.linkedin.com/in/jeriah-marson-2a9722239/"><LinkedInIcon fontSize="large"/></Navbar.Link>
+          <Navbar.Link href="https://github.com/JeriahEM"><GitHubIcon fontSize="large"/></Navbar.Link>
+          <Navbar.Link href="https://docs.google.com/document/d/17Bf5MDRPqd0Z1cVbCJ7jEZ8W3eBOSbYWyBDgrB8mvvQ/edit#heading=h.5rf9wr4r3no2"><ArticleIcon fontSize="large"/></Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
 
@@ -46,7 +42,7 @@ export default function Home() {
           {/* img */}
           <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
             <div className="flex justify-center">
-              <div className="lg:my-4 lg:border-2 border-color placeholder w-[75%] h-40 md:h-[50vh] lg:h-[50vh] rounded-full">
+              <div className="lg:my-4 lg:border- borderYuh placeholder w-[75%] h-40 md:h-[50vh] lg:h-[50vh] rounded-full">
                 {/* where image goes */}
               </div>
             </div>
@@ -72,7 +68,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" grid lg:grid-cols-4 pt-8 justify-center  background1">
+        <div className=" grid md:grid-cols-2 lg:grid-cols-4 pt-8 justify-center  background1">
 
 
 <div className="text-2xl mx-8 py-2">
@@ -145,7 +141,7 @@ export default function Home() {
   <li>
       <i className="">
         {/* nextjs */}
-        <img className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg" />
+        <img  className="lg:w-20 lg:h-20 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg" />
       </i>
     </li>
     <li>
@@ -216,18 +212,18 @@ export default function Home() {
 
 
         <hr />
-        <div className="flex flex-col items-center text-4xl font-bold pt-14 color">
+        <div className="flex flex-col items-center text-4xl font-bold pt-14 color ">
           <p id="pro">Projects</p>
         </div>
-        <div className="grid grid-cols-6 mx-7 py-8 px-2 gap-5">
+        <div className="grid grid-cols-6 mx-7 py-8 px-2 gap-5 ">
           <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
-            <h1 className="text-3xl font-bold text-center"><a href="https://fullstack-frontend-red.vercel.app">Court Monitor</a></h1>
+            <h1 className="text-3xl font-bold text-center color1"><a href="https://fullstack-frontend-red.vercel.app">Court Monitor</a></h1>
             <br />
-            <div className="courtmonitor w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-9xl" href="https://fullstack-frontend-red.vercel.app">we like. <br />coding.</a></div>
+            <div className="courtmonitor w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" href="https://fullstack-frontend-red.vercel.app">we like. <br />coding.</a></div>
             <br />
-            <h3 className="text-2xl text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati natus aliquam nisi delectus, quae quam, consequatur dolores aut officiis neque deleniti itaque facilis temporibus labore tenetur quis eum. Ducimus, consequuntur?</h3>
+            <h3 className="text-2xl text-center color1">In a team of three I helped to create a fullstack web application that aims to simplify communication between sports programs.</h3>
             <p className="pt-2 text-xl color">Made With:</p>
-            <div className="grid grid-cols-6 justify-items-start mx-6">
+            <div className="grid grid-cols-6 justify-items-start mx-6 pb-8">
               
             <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
             <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
@@ -238,31 +234,32 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
-            <h1 className="text-3xl font-bold text-center"><a href="https://business-redevelop.vercel.app/pages/contactpage.html">Tea Amo</a></h1>
+          <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0 ">
+            <h1 className="text-3xl font-bold text-center color1"><a href="https://business-redevelop.vercel.app/pages/contactpage.html">Tea Amo</a></h1>
             <br />
-            <div className="teaamo w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-9xl" href="https://business-redevelop.vercel.app/pages/contactpage.html">we like. <br />coding.</a></div>
+            <div className="teaamo w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" href="https://business-redevelop.vercel.app/pages/contactpage.html">we like. <br />coding.</a></div>
             <br />
-            <h3 className="text-2xl text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati natus aliquam nisi delectus, quae quam, consequatur dolores aut officiis neque deleniti itaque facilis temporibus labore tenetur quis eum. Ducimus, consequuntur?</h3>
+            <h3 className="text-2xl text-center color1">Myself and a team of two other software engineers created a <a className="text-blue-600 hover:text-blue-300" href="https://www.figma.com/design/jma9zzUYUldF8NkowwNrBT/business-RE-redesign-(Copy)?t=RV0s4haMVMido1Od-0">figma</a>  design and then coded out a website for a local resturant </h3>
             <p className="pt-2 text-xl color">Made With:</p>
-            <div className="grid grid-cols-6 justify-items-start mx-6">
+            <div className="grid grid-cols-6 justify-items-start mx-6 pb-8">
               
             <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" />          
             <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" />
             <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
             <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain.svg" />
+            <img className="lg:w-10 lg:h-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
 
             </div>
           </div>
 
           <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
-            <h1 className="text-3xl font-bold text-center" ><a href="https://react-pokemon-rouge.vercel.app">POKéMON React</a> </h1>
+            <h1 className="text-3xl font-bold text-center color1" ><a href="https://react-pokemon-rouge.vercel.app">POKéMON React</a> </h1>
             <br />
-            <div className="pokereact w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-9xl" href="https://react-pokemon-rouge.vercel.app">we like. <br />coding.</a></div>
+            <div className="pokereact w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" href="https://react-pokemon-rouge.vercel.app">we like. <br />coding.</a></div>
             <br />
-            <h3 className="text-2xl text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati natus aliquam nisi delectus, quae quam, consequatur dolores aut officiis neque deleniti itaque facilis temporibus labore tenetur quis eum. Ducimus, consequuntur?</h3>
+            <h3 className="text-2xl text-center color1">Using React and teh PokéMon api the user can look up a PokéMon by name or PokéDex number and favorite them to have their info appear</h3>
             <p className="pt-2 text-xl color">Made With:</p>
-            <div className="grid grid-cols-6 justify-items-start mx-6">
+            <div className="grid grid-cols-6 justify-items-start mx-6 pb-8">
               
             <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
             <img className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
@@ -280,11 +277,9 @@ export default function Home() {
           <div className="w-full sm:flex sm:items-center sm:justify-between">
 
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-              <Footer.Icon href="#" icon={BsFacebook} />
-              <Footer.Icon href="#" icon={BsInstagram} />
-              <Footer.Icon href="#" icon={BsTwitter} />
-              <Footer.Icon href="https://github.com/JeriahEM" icon={BsGithub} />
-              <Footer.Icon href="#" icon={BsDribbble} />
+            <Footer.Link href="https://www.linkedin.com/in/jeriah-marson-2a9722239/"><LinkedInIcon fontSize="large"/></Footer.Link>
+          <Footer.Link href="https://github.com/JeriahEM"><GitHubIcon fontSize="large"/></Footer.Link>
+          <Footer.Link href="https://docs.google.com/document/d/17Bf5MDRPqd0Z1cVbCJ7jEZ8W3eBOSbYWyBDgrB8mvvQ/edit#heading=h.5rf9wr4r3no2"><ArticleIcon fontSize="large"/></Footer.Link>
             </div>
           </div>
         </div>
