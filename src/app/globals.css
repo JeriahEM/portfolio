@@ -4,7 +4,7 @@
 
 
 .placeholder{
-  background-image: url('./asset/Jeriah_Marson_01_CSAS6_Headshots.jpg');
+  background-image: url('./asset/Jeriah_Marson_02_CSAS6_Headshots\ 1.png');
   background-position: center;
   background-size: cover;
 }
@@ -13,4 +13,29 @@
   background-image: url('./asset/courtmonitor.png');
   background-position: center;
   background-size: cover;
+}
+.pokereact{
+  background-image: url('./asset/pokePortfolioIMg.png');
+  background-position: center;
+  background-size: cover;
+}
+.teaamo{
+  background-image: url('./asset/teaamoimg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.color{
+  color: #148F74
+}
+
+.color1{
+  color: #333333
+}
+
+.background{
+  background-color: #F3D3BD;
+}
+.background1{
+  background-color: #FCFAF9;
 }
