@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Navbar fluid rounded className="background1">
-        <Navbar.Brand as={Link} href="https://flowbite-react.com">
+        <Navbar.Brand as={Link} href="https://www.linkedin.com/in/jeriah-marson-2a9722239/">
           {/* <img
             src="/favicon.svg"
             className="mr-3 h-6 sm:h-9"
@@ -219,7 +219,7 @@ export default function Home() {
             <br />
             <h3 className="text-2xl text-center color1">In a team of three I helped to create a fullstack web application that aims to simplify communication between sports programs.</h3>
             <p className="pt-2 text-xl color">Made With:</p>
-            <div className="grid grid-cols-6 justify-items-start mx-6 pb-8">
+            <div className="grid grid-cols-6 justify-items-center pb-7 bg-slate-700 bg-opacity-45 rounded-lg pt-7 ">
               
             <img title="Typescript" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
             <img title="Tailwind" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
@@ -237,7 +237,7 @@ export default function Home() {
             <br />
             <h3 className="text-2xl text-center color1">Myself and a team of two other software engineers created a <a className="text-blue-600 hover:text-blue-300" href="https://www.figma.com/design/jma9zzUYUldF8NkowwNrBT/business-RE-redesign-(Copy)?t=RV0s4haMVMido1Od-0">figma</a>  design and then coded out a website for a local resturant </h3>
             <p className="pt-2 text-xl color">Made With:</p>
-            <div className="grid grid-cols-6 justify-items-start mx-6 pb-8">
+            <div className="grid grid-cols-6 justify-items-center pb-7 bg-slate-700 bg-opacity-45 rounded-lg pt-7 ">
               
             <img title="HTML5" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" />          
             <img title="CSS" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" />
@@ -255,7 +255,7 @@ export default function Home() {
             <br />
             <h3 className="text-2xl text-center color1">Using React and teh PokéMon api the user can look up a PokéMon by name or PokéDex number and favorite them to have their info appear</h3>
             <p className="pt-2 text-xl color">Made With:</p>
-            <div className="grid grid-cols-6 justify-items-start mx-6 pb-8">
+            <div className="grid grid-cols-6 justify-items-center pb-7 bg-slate-700 bg-opacity-45 rounded-lg pt-7 ">
               
             <img title="Typescript" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" />
             <img title="Tailwind" className="lg:w-10 lg:h-10 color" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
