@@ -59,7 +59,7 @@ export default function Home() {
               {/* text */}
               <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 md:pt-14">
                 <p className="text-5xl lg:text-6xl text-center bg-green-800 text-white max-w-64 lg:max-w-80 font-bold pb-2">About Me</p>
-                <p className="text-sm md:text-md lg:text-2xl text-center color1">I am a software engineer focused on HTML, CSS, JavaScript, and React, graduating from CodeStack Academy where I built full-stack websites. Coding challenged me through problem-solving and creative thinking. Alongside this passion, I've loved music since my early teens - singing in choir, playing guitar and piano, and studying music at a college. Although pursuing software development as a career, I maintain my musical interests by collecting vinyl records, with <a href="https://www.discogs.com/user/shadowK9253/collection" className="text-blue-600 hover:text-blue-300">my collection</a> growing since late 2022 despite rising prices.</p>
+                <p className="text-sm md:text-md lg:text-2xl text-center color1">I am a software engineer focused on HTML, CSS, JavaScript, and React, graduating from CodeStack Academy where I built full-stack websites. Coding challenged me through problem-solving and creative thinking. Alongside this passion, I have loved music since my early teens - singing in choir, playing guitar and piano, and studying music at a college. Although pursuing software development as a career, I maintain my musical interests by collecting vinyl records, with <a href="https://www.discogs.com/user/shadowK9253/collection" className="text-blue-600 hover:text-blue-300">my collection</a> growing since late 2022 despite rising prices.</p>
               </div>
               <br />
 
