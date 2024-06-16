@@ -122,7 +122,7 @@ export default function Home() {
               <li>
                 <i className="">
                   {/* Unity */}     
-            <img title="Unity" className="md:w-20 md:h-20 color  " src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" />
+            <img title="Unity" className="md:w-20 md:h-20 color " src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" />
                 </i>
               </li>
 
