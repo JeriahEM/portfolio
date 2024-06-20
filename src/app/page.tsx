@@ -273,7 +273,7 @@ export default function Home() {
           <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
             <h1 className="text-4xl font-bold text-center color1"><a target="blank" href="https://zealous-tree-095d4381e.5.azurestaticapps.net">Court Monitor</a></h1>
             <br />
-            <div className="courtmonitor w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" target="blank" href="https://fullstack-frontend-red.vercel.app">we like. <br />coding.</a></div>
+            <div className="courtmonitor w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" target="blank" href="https://zealous-tree-095d4381e.5.azurestaticapps.net">we like. <br />coding.</a></div>
             <br />
             <h3 className="text-2xl text-center color1">In a team of three I helped to create a fullstack web application that aims to simplify communication between sports programs.</h3>
             {/* <img src={work1} alt="" /> */}
@@ -332,6 +332,7 @@ export default function Home() {
           <div className="w-full sm:flex sm:items-center sm:justify-between">
 
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+            
               <Footer.Link target="blank" href="https://www.linkedin.com/in/jeriah-marson-2a9722239/"><LinkedInIcon fontSize="large" /></Footer.Link>
               <Footer.Link target="blank"href="https://github.com/JeriahEM"><GitHubIcon fontSize="large" /></Footer.Link>
               <Footer.Link target="blank" href="https://docs.google.com/document/d/17Bf5MDRPqd0Z1cVbCJ7jEZ8W3eBOSbYWyBDgrB8mvvQ/edit#heading=h.5rf9wr4r3no2"><ArticleIcon fontSize="large" /></Footer.Link>
