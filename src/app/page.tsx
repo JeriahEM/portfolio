@@ -271,9 +271,9 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-6 mx-7 py-8 px-2 gap-5 ">
           <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
-            <h1 className="text-4xl font-bold text-center color1"><a href="https://fullstack-frontend-red.vercel.app">Court Monitor</a></h1>
+            <h1 className="text-4xl font-bold text-center color1"><a target="blank" href="https://zealous-tree-095d4381e.5.azurestaticapps.net">Court Monitor</a></h1>
             <br />
-            <div className="courtmonitor w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" href="https://fullstack-frontend-red.vercel.app">we like. <br />coding.</a></div>
+            <div className="courtmonitor w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" target="blank" href="https://fullstack-frontend-red.vercel.app">we like. <br />coding.</a></div>
             <br />
             <h3 className="text-2xl text-center color1">In a team of three I helped to create a fullstack web application that aims to simplify communication between sports programs.</h3>
             {/* <img src={work1} alt="" /> */}
@@ -292,7 +292,7 @@ export default function Home() {
           <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0 ">
             <h1 className="text-4xl font-bold text-center color1"><a href="https://business-redevelop.vercel.app/pages/contactpage.html">Tea Amo</a></h1>
             <br />
-            <div className="teaamo w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" href="https://business-redevelop.vercel.app/pages/contactpage.html">we like. <br />coding.</a></div>
+            <div className="teaamo w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" target="blank" href="https://business-redevelop.vercel.app/pages/contactpage.html">we like. <br />coding.</a></div>
             <br />
             <h3 className="text-2xl text-center color1">Myself and a team of two other software engineers created a <a className="text-blue-600 hover:text-blue-300" href="https://www.figma.com/design/jma9zzUYUldF8NkowwNrBT/business-RE-redesign-(Copy)?t=RV0s4haMVMido1Od-0">figma</a>  design and then coded out a website for a local resturant </h3>
             <p className="pt-2 text-xl color">Made With:</p>
@@ -308,9 +308,9 @@ export default function Home() {
           </div>
 
           <div className=" col-span-6 md:col-span-3 lg:col-span-2  md:w-full w-48 ml-20 md:ml-0">
-            <h1 className="text-4xl font-bold text-center color1" ><a href="https://react-pokemon-rouge.vercel.app">POKéMON React</a> </h1>
+            <h1 className="text-4xl font-bold text-center color1" ><a target="blank" href="https://react-pokemon-rouge.vercel.app">POKéMON React</a> </h1>
             <br />
-            <div className="pokereact w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" href="https://react-pokemon-rouge.vercel.app">we like. <br />coding.</a></div>
+            <div className="pokereact w-[100%] h-40 md:h-[45vh] lg:h-[35vh] rounded-3xl"><a className="text-transparent text-6xl md:text-8xl lg:text-9xl" target="blank" href="https://react-pokemon-rouge.vercel.app">we like. <br />coding.</a></div>
             <br />
             <h3 className="text-2xl text-center color1">Using React and the PokéMon api the user can look up a PokéMon by name or PokéDex number and favorite them to have their info appear</h3>
             <p className="pt-2 text-xl color">Made With:</p>
